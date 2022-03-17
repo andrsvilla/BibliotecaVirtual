@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Virtual</title>
+  <link rel="stylesheet" href="css/EstiloCSS3.css">
+</head>
+
+<body>
+  <div id="group-elements">
+    <nav id="menu">
+      <a href="index.html">Biblioteca Virtual</a>
+      <a href="registrarLibro.html">Registrar Libro</a>
+      <div id="logo"><a href="IniciarSesion.html"><img src="InterfazInicioSesion/img/avatar.svg" width="22em"></a></div>
+    </nav>
+    <h1>Editar Información del Libro</h1>
+    <div id="content">
+      <form action="editar" method="POST">
+        <div>
+          <span id="textM">Título:</span>
+          <textarea name="title" cols="20" rows="3" required></textarea><br>
+        </div><br>
+        <div>
+          <span id="textM">Autor(es):</span>
+          <textarea name="actors" cols="20" rows="3" required></textarea>
+        </div><br>
+        <div>
+          <span>ISBN:</span>
+          <input name="isbn" type="number" required>
+        </div><br>
+        <div>
+          <span>Nro de páginas:</span>
+          <input name="pages" type="number" required>
+        </div><br>
+        <div>
+          <span>Editorial:</span>
+          <input id="row2" name="editorial" type="text" required>
+        </div><br>
+        <div>
+          <span>Fecha de publicación:</span>
+          <input type="date" name="fecha_pub" required>
+        </div><br>
+        <div>
+          <span>Fecha de registro:</span>
+          <input type="date" name="fecha_reg" id="reg" disabled>
+        </div><br>
+        <input id="botonA" type="submit" name="actualizar" value="Actualizar">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input id="botonB" type="button" onclick="location.href='index.html'" value="Cancelar">
+      </form>
+    </div><br>
+    <footer id="footer-foot">
+      Derechos Reservados &copy; ACME 2021-2022
+    </footer>
+  </div>
+</body>
+
+</html>

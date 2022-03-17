@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Virtual</title>
+  <link rel="stylesheet" type="text/css" href="InterfazInicioSesion/EstiloSesion.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="container">
+    <h2 class="title">Biblioteca Virtual</h2>
+    <div class="login-content">
+      <form method="POST" action="index.html">
+        <img src="InterfazInicioSesion/img/avatar.svg">
+        <div class="input-div one">
+          <div class="i">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="div">
+            <h5>Correo</h5>
+            <input type="text" class="input" name="login" required>
+          </div>
+        </div>
+        <div class="input-div pass">
+          <div class="i">
+            <i class="fas fa-lock"></i>
+          </div>
+          <div class="div">
+            <h5>Contraseña</h5>
+            <input type="password" class="input" name="passwd" required>
+          </div>
+        </div>
+        <div class="botones">
+          <input type="submit" class="btn" value="Iniciar Sesión">
+          <input type="button" class="btn2" onclick="location.href='registrarUsuario.html'" value="Registrarse">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

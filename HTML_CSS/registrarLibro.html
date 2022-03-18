@@ -6,19 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biblioteca Virtual</title>
-  <link rel="stylesheet" href="css/EstiloCSS3.css">
+  <link rel="stylesheet" href="css/StyleRegEditBook.css">
 </head>
 
 <body>
-  <div id="group-elements">
-    <nav id="menu">
-      <a href="index.html">Biblioteca Virtual</a>
-      <a href="registrarLibro.html">Registrar Libro</a>
-      <div id="logo"><a href="IniciarSesion.html"><img src="InterfazInicioSesion/img/avatar.svg" width="22em"></a></div>
-    </nav>
+  <div class="group-elements">
+    <div class="menu">
+      <nav class="navbar">
+        <a href="index.html">Biblioteca Virtual</a>
+        <a href="registrarLibro.html">Registrar Libro</a>
+        <div class="logo"><a href="IniciarSesion.html"><img src="img/avatar.svg" width="24em"></a></div>
+      </nav>
+    </div>
     <h1>Registro de Libro</h1>
-    <div id="content">
-      <form action="registrar" method="POST">
+    <div class="container">
+      <form action="index.html">
         <div>
           <span id="textM">Título:</span>
           <textarea name="title" cols="20" rows="3" required></textarea><br>
@@ -56,6 +58,7 @@
         document.getElementById("reg").setAttribute("value", d.getFullYear() + "-0" + d.getMonth() + "-" + d.getDate());
       </script>
     </div><br>
+
     <footer id="footer-foot">
       Derechos Reservados &copy; ACME 2021-2022
     </footer>

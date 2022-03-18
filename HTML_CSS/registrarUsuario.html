@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro - Biblioteca Virtual</title>
+  <link rel="stylesheet" type="text/css" href="css/StyleLogin.css">
+</head>
+
+<body>
+  <div class="img">
+    <img src="img/Bibliotecas_Horarios1.jpg">
+  </div>
+  <div class="container">
+    <h2 class="title">Registro de Usuario</h2>
+    <div class="login-content">
+      <form method="POST" action="IniciarSesion.html">
+        <img src="img/avatar.svg">
+        <div class="div-user">
+          <input type="text" class="input" name="nombre" placeholder="Nombre" required>
+        </div>
+        <div class="div-user">
+          <input type="text" class="input" name="apellido" placeholder="Apellido" required>
+        </div>
+        <div class="div-user">
+          <input type="email" class="input" name="correo" placeholder="Correo" required>
+        </div>
+        <div class="div-user">
+          <input type="password" class="input" name="contraseña" placeholder="Contraseña" required>
+        </div>
+        <input type="submit" class="btn1" value="Registrarse">&nbsp;&nbsp;
+        <input type="button" class="btn2" onclick="location.href='IniciarSesion.html'" value="Cancelar">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

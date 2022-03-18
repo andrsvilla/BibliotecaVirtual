@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Georgia', serif;
+  text-align: center;
+}
+.group-elements {
+  display: block;
+  margin: 1em auto;
+  width: 60em;
+  background: #F3F3F3;
+}
+.menu {
+  font-size: 1.1em;
+  text-align: left;
+  position: relative;
+  background: #0053F2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.menu .navbar {
+  width: 90%;
+}
+
+.navbar a{
+  color: #E6E6E6;
+  font-family: Georgia, serif;
+  padding: 0.5em;
+  text-decoration-line: none;
+}
+.logo {
+  position: absolute;
+  top: 0.5em;
+  right: 0em;
+}
+
+.group-elements h1 {
+  text-align: center;
+  font-size: 2em;
+  font: bold;
+  font-family: Georgia, serif;
+  color: #8A0000;
+  text-shadow: #00F8FF 3px 3px 5px;
+  padding: 0.2em;
+}
+
+.container {
+  margin: 20px 0px;
+  position: relative;
+  width: 50em;
+  right: -5em;
+  padding: 0.5em;
+  font-size: 1em;
+  font-family: Georgia, serif;
+  background: #E6E6E6;
+}
+
+.div-text1, .div-text2, .div-text3 {
+  width: 80%;
+  position: relative;
+  left: 15%;
+  display: flex;
+  margin: 30px 2px
+}
+.div-text1 span {
+  text-align: left;
+  width: 16%;
+  position: relative;
+}
+.div-text1 p {
+  text-align: justify;
+  width: 70%;
+  position: relative;
+  color: #282828;
+}
+
+.div-text2 span {
+  text-align: left;
+  width: 30%;
+  position: relative;
+  padding: 0px 10px;
+}
+.div-text2 p {
+  text-align: left;
+  width: 15%;
+  position: relative;
+  color: #282828;
+  padding: 0px 10px;
+}
+.div-text2 #text-right {
+  text-align: right;
+  width: 10%;
+}
+
+.div-text3 span {
+  text-align: left;
+  width: 19%;
+  position: relative;
+}
+.div-text3 p {
+  text-align: left;
+  width: 22%;
+  position: relative;
+  color: #282828;
+}
+
+#botonA {
+  width: 6em;
+  background: #009600;
+  text-align: center;
+  color: #E6E6E6;
+  padding: 0.3em;
+  font-size: 1em;
+  font-family: Georgia, serif;
+  margin: 15px 12px;
+}
+#botonB {
+  width: 6em;
+  background: #800;
+  text-align: center;
+  color: #E6E6E6;
+  padding: 0.3em;
+  font-size: 1em;
+  font-family: Georgia, serif;
+  margin: 15px 12px;
+}
+#botonC {
+  width: 6em;
+  background: #949600;
+  text-align: center;
+  color: #E6E6E6;
+  padding: 0.3em;
+  font-size: 1em;
+  font-family: Georgia, serif;
+  margin: 15px 12px;
+}
+
+#footer-foot {
+  width: 90%;
+  position: relative;
+  left: 5%;
+  clear: both;
+  text-align: center;
+  padding: 20px 5px;
+  border-top: 2px solid #999999;
+}
+time {
+  color: #999999;
+}

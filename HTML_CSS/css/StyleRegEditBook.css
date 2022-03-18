@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Georgia', serif;
+  text-align: center;
+}
+.group-elements {
+  display: block;
+  margin: 1em auto;
+  width: 60em;
+  background: #F3F3F3;
+}
+.menu {
+  font-size: 1.1em;
+  text-align: left;
+  position: relative;
+  background: #0053F2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.menu .navbar {
+  width: 90%;
+}
+
+.navbar a{
+  color: #E6E6E6;
+  font-family: Georgia, serif;
+  padding: 0.5em;
+  text-decoration-line: none;
+}
+.logo {
+  position: absolute;
+  top: 0.5em;
+  right: 0em;
+}
+
+.group-elements h1 {
+  text-align: center;
+  font-size: 2em;
+  font: bold;
+  font-family: Georgia, serif;
+  color: #8A0000;
+  text-shadow: #00F8FF 3px 3px 5px;
+  padding: 0.2em;
+}
+
+.container {
+  position: relative;
+  width: 40em;
+  right: -10em;
+  padding: 1em;
+  font-size: 1em;
+  font-family: Georgia, serif;
+  background: #E6E6E6;
+  text-align: right;
+  align-content: center;
+}
+span {
+  position: relative;
+  right: 9em;
+  width: 10em;
+}
+#textM {
+  top:-1.5em;
+}
+textarea {
+  position: relative;
+  right: 10em;
+  width: 20em;
+  resize: none;
+}
+input{
+  position: relative;
+  right: 10em;
+  width: 20em;
+  text-align: left;
+}
+label{
+  position: relative;
+  right: 10em;
+  width: 20em;
+  text-align: left;
+  background: #F3F3F3;
+}
+#botonA {
+  width: 6em;
+  background: #009600;
+  text-align: center;
+  color: #E6E6E6;
+  padding: 0.3em;
+  font-size: 1em;
+  font-family: Georgia, serif;
+}
+#botonB {
+  width: 6em;
+  background: #949600;
+  text-align: center;
+  color: #E6E6E6;
+  padding: 0.3em;
+  font-size: 1em;
+  font-family: Georgia, serif;
+}
+
+#footer-foot {
+  width: 90%;
+  position: relative;
+  left: 5%;
+  clear: both;
+  text-align: center;
+  padding: 20px 5px;
+  border-top: 2px solid #999999;
+}
+time {
+  color: #999999;
+}

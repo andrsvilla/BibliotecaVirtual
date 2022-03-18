@@ -1,4 +1,8 @@
-# BibliotecaVirtual
+# Desarrollo de Aplicaciones Web
+# Microproyecto Biblioteca Virtual
 
-# Microproyecto - Desarrollo de Aplicaciones Web
-Andres Villaquiran Silva
+Andres Villaquiran
+Universidad del Cauca
+Facultad de Ingeniería Electrónica y Telecomunicaciones
+Ingeniería en Automática Industrial
+2022
